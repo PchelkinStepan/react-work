@@ -12,11 +12,51 @@ const Header = () => {
         </div>
         <nav className="nav">
           <ul>
-            <li><a href="#link1">Ссылка 1</a></li>
-            <li><a href="#link2">Ссылка 2</a></li>
-            <li><a href="#link3">Ссылка 3</a></li>
-            <li><a href="#link4">Ссылка 4</a></li>
-            <li><a href="#link5">Ссылка 5</a></li>
+            <li>
+              <a 
+                href="https://www.yandex.ru" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Яндекс
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://fgis.gost.ru/fundmetrology/registry/4" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Гис Аршин
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://all-pribors.ru" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                All Pribors
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://yandex.ru/search/?text=калькулятор+онлайн+бесплатно" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Калькулятор
+              </a>
+            </li>
+            <li>
+              <a 
+                href="https://translate.yandex.ru" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Переводчик
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

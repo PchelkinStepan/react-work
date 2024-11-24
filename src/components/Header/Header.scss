@@ -20,8 +20,10 @@
       gap: 1rem;
   
       .logo-image {
-        height: 40px;
+        height: 50px;
         width: auto;
+        filter: brightness(0) invert(1);
+        animation: pulse 2s ease-in-out infinite;
       }
   
       .company-name {
@@ -92,3 +94,15 @@
       }
     }
   }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
