@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import FirstSlide from './components/FirstSlide/FirstSlide';
 import SecondSlide from './components/SecondSlide/SecondSlide';
+import ThirdSlide from './components/ThirdSlide/ThirdSlide';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './Slider.scss';
@@ -35,10 +36,12 @@ const Slider = () => {
             <SecondSlide />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide">Слайд 3</div>
+            <ThirdSlide />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide">Слайд 4</div>
+            <div className="slide">
+              <h2 className="slide-title">Протокол</h2>
+            </div>
           </SwiperSlide>
         </Swiper>
         <div className="swiper-button-prev-custom"></div>
