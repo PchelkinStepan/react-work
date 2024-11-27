@@ -1,0 +1,49 @@
+.standards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.5rem;
+}
+
+.standard-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+  }
+
+  h3 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    margin: 0.4rem 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.standards-slide {
+  .input-container {
+    input {
+      width: 220px !important;
+      font-size: 0.85rem !important;
+      height: 25px !important;
+      padding: 0.1rem 0.5rem !important;
+    }
+    
+    label {
+      min-width: 120px !important;
+      font-size: 1rem !important;
+    }
+  }
+}

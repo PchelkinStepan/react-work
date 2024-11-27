@@ -4,6 +4,7 @@ import { Navigation } from 'swiper/modules';
 import FirstSlide from './components/FirstSlide/FirstSlide';
 import SecondSlide from './components/SecondSlide/SecondSlide';
 import ThirdSlide from './components/ThirdSlide/ThirdSlide';
+import FourthSlide from './components/FourthSlide/FourthSlide';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './Slider.scss';
@@ -39,9 +40,7 @@ const Slider = () => {
             <ThirdSlide />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="slide">
-              <h2 className="slide-title">Протокол</h2>
-            </div>
+            <FourthSlide />
           </SwiperSlide>
         </Swiper>
         <div className="swiper-button-prev-custom"></div>
